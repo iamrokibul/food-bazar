@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+input:focus{
+    outline: 0;
+}
+/* Brand name */
+a.navbar-brand h2 {
+    font-weight: 800;
+}
+.food-pic img{
+    width: 200px;
+}
+.hero-area{
+    margin-top: 55px;
+    background-image: url(banner_1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hero-area::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+div.hero{
+    width: 100%;
+    height: 550px;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+}
+.hero p {
+    font-size: 18px;
+    text-align: center;
+}
+/* Hero search box and button */
+.form {
+    width: 100%;
+    margin-top: 25px;
+}
+input.search-box {
+    width: 84%;
+    font-size: 20px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #FFC107;
+    border-right: none;
+    padding: 10px;
+    display: inline-block;
+}
+.baton {
+    background: #FFC107;
+    font-size: 20px;
+    border: 1px solid #FFC107;
+    border-radius: 0 3px 3px 0;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 16px;
+    margin-top: -6px;
+    margin-left: -5px;
+}
+.baton:hover{
+    background: #fff;
+}
+button#show-all{
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+button.pop-btn {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFC107;
+    color: #FFC107;
+    font-size: 18px;
+}
+
+button.pop-btn:hover {
+    border-bottom: 1px solid transparent;
+}
+/* Modal label */
+#modal-body img{
+    margin-bottom: 10px;
+}
+#modal-body p{
+    margin: 10px 0;
+}
+
+/* Footer area */
+footer a{
+    color: #FFC107;
+}
